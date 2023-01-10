@@ -1,0 +1,26 @@
+.categories{
+    width: 100vw;
+    font-size: smaller;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.categories div{
+    width: 70px;
+    text-align: center;
+}
+.categories a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.categories img{
+    width: 70px;
+}
+@media(width <= 700px)
+{
+    #home, #appliances, #travel, #beauty, #wheel{
+        display: none;
+    }
+}

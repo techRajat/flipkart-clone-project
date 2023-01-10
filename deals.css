@@ -1,0 +1,38 @@
+.deals .body{
+    width: 100vw;
+    height: 50vh;
+    border-top: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.deals .body div{
+    width: 206px;
+    text-align: center;
+}
+.deals .body img{
+    height: 180px;
+    width: 190px;
+}
+.deals .body a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+@media(width <= 700px)
+{
+    .deals .body{
+        height: 25vh;
+    }
+    .deals .body div{
+        width: 100px;
+    }
+    .deals .body img{
+        width: 80px;
+        height: 80px;
+    }
+    .deals .body a{
+        font-size: smaller;
+    }
+}

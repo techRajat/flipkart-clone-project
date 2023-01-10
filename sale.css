@@ -1,0 +1,30 @@
+.sale{
+    width: 100vw;
+}
+.sale img{
+    height: 46vh;
+    width: 100vw;
+}
+.head{
+    height: 6vh;
+    border-top: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.head p{
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 8px;
+}
+#view{
+    padding-right: 8px;
+}
+.head a{
+    text-decoration: none;
+    color: white;
+    background-color: royalblue;
+    padding: 2px;
+    border-radius: 5px;
+    padding: 4px;
+}

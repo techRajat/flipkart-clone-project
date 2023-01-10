@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navBar{
+    background-color: royalblue;
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 94px;
+}
+.searchBar{
+    width: 348px;
+}
+.seller
+{
+    width: 110px;
+}
+.more, .cart{
+    width: 40px;
+}
+.logo img{
+    width: 90px;
+    height: 16px;
+    padding-top: 5px;
+}
+.searchBar input{
+    width: 240px;
+    height: 28px;
+}
+.searchBar button{
+    width: 30px;
+    height: 28px;
+}
+#login{
+    width: 64px;
+}
+.seller a, .more a, .cart a{
+    color: white;
+    text-decoration: none;
+}
+.seller a:hover, .more a:hover, .cart a:hover{
+    color: rgb(7, 0, 0);
+    text-decoration: none;
+}
+@media(width <= 750px)
+{
+    .navBar{
+        height: 15vh;
+    }
+    .searchBar{
+        order: 2;
+        padding-left: 8px;
+        width: 280px;
+    }
+    #login{
+        display: none;
+    }
+    .seller{
+        width: 107px;
+    }
+}

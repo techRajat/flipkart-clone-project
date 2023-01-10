@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+.sponsored .body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    border-top: 1px solid gray;
+    border-bottom: 4px solid gray;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.sponsored .body div{
+    width: 330px;
+    text-align: center;
+}
+.sponsored .body img{
+    width: 233px;
+    height: 180px;
+}
+.sponsored .body a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    line-height: 15px;
+}
+@media(width <= 700px)
+{
+    .sponsored .body{
+        height: 40vh;
+    }
+    .sponsored .body div{
+        width: 120px;
+    }
+    .sponsored .body img{
+        width: 120px;
+        height: 80px;
+    }
+    .sponsored .body a{
+        font-size: smaller;
+    }
+}
